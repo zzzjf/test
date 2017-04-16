@@ -2,9 +2,37 @@
 <html lang="en">
 <head>
 	<meta charset="UTF-8">
-	<title>Document</title>
+	<style>
+	*{
+		margin: 0;
+		padding: 0;
+		text-align: center;
+
+	}
+		.box{
+			display: flex;
+
+		}
+		.box div:nth-child(2n-1){
+			width: 100px;
+			height: 100px;
+			background-color: #ccc;
+		}
+		.middle{
+			width: 100%;
+			background-color: #f60;
+		}
+	</style>
+	<title>弹性布局</title>
 </head>
 <body>
-	<h1>1131211</h1>	
+	<h1 >弹性布局</h1>
+	<div class="box">
+		<div></div>
+		<div class="middle"></div>
+		<div></div>
+	</div>
+
+
 </body>
 </html>
