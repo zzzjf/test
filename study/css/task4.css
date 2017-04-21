@@ -14,9 +14,9 @@
 	}
 	.header div{
 		background-color: #5fc0cd;
-		font-size:1.5rem;
+		font-size:1.3rem;
 		color: #fff;
-		line-height: 5rem;
+		line-height: 4rem;
 		padding: 0 1.5rem;
 	}
 	.hLeft{
@@ -37,7 +37,7 @@
 	.container div input{
 		color: #ccc;
 		font-size: 2em;
-		line-height: 5rem;
+		line-height: 4rem;
 		border:none;
 		outline:none;
 		padding-left: 1.5rem;
@@ -50,9 +50,9 @@
 
 	.footer button{
 		width: 100%;
-		line-height: 5rem;
+		line-height: 4rem;
 		background-color: #5fc0cd;
-		font-size: 1.5rem;
+		font-size: 1.3rem;
 		text-align: center;
 		color: #fff;
 		-webkit-appearance: none;
