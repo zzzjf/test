@@ -3,7 +3,6 @@
 		margin: 0;
 		padding: 0;
 		text-decoration: none;
-
 	}
 	body{
 		background-color: #eff0f4;
@@ -31,16 +30,20 @@
 	}
 	.container div{
 		width: 100%;
-		background-color: #fff;
-		    margin-top: 0.7rem;
+		background-color: #FFF;
+		height: 3rem;
+	 	margin-top: 0.7rem;
 	}
+
 	.container div input{
 		color: #ccc;
 		font-size: 2em;
 		line-height: 3rem;
 		border:none;
 		outline:none;
-		padding-left: 1.5rem;
+		/*padding-left: 1.5rem;*/
+	 	vertical-align: middle;
+
 	}
 	.footer{
 		background-color: #eff0f4;
@@ -62,20 +65,20 @@
 	}
 	.tex:before{
 		content: "";
-		background-image: url('../images/task4.png');
-		background-position: 5px -15px;
-		/*background-color: #f60;*/
-		display: inline-block;
-		height: 2.6rem;
-		width:2rem;
-		vertical-align: middle;
-		border-right:1px solid #ccc;
-		padding-right: 1rem;
-		margin-bottom: 9px;
+		background: url('../images/task4.png')no-repeat;
+		background-position: 11px -8px;
+		background-size: 150%;
+		content: "";
+	    width: 50px;
+	    height: 40px;
+	    border-right: 1px solid #ccc;
+	    margin-right: 10px;
+	    display: inline-block;
+	    vertical-align: middle;
 
 	}
 	.tex:nth-child(2):before{
-		background-position: -41px -15px;
+		background-position: -25px -8px;
 	}
 	a{
 		color: #5fc0cd;
